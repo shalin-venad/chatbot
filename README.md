@@ -1,4 +1,4 @@
-#🧠 Simple Python Chatbot using Ollama and LangChain
+# 🧠 Simple Python Chatbot using Ollama and LangChain
 A minimal command-line chatbot built with LangChain and Ollama that runs locally using open-source LLMs like llama3.
 
 ## ✨ Features
@@ -20,7 +20,7 @@ An Ollama model pulled (e.g. llama3:8b or llama3:1b)
 ## 🚀 Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/shalin-venad/chatbot.git
+git clone <repository-url>
 cd chatbot
 ```
 2. Set up a virtual environment
@@ -29,11 +29,11 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 3. Install dependencies
 ```
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 4. Pull a model
 ```
-   ollama pull llama3.2:1b
+ollama pull llama3.2:1b
 ```
 5. Run the chatbot
 ```
