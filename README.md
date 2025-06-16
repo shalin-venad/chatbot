@@ -31,11 +31,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
-4. Pull a model
-```
-ollama pull llama3.2:1b
-```
-5. Run the chatbot
+4. Run the chatbot
 ```
 python3 main.py
 ```
