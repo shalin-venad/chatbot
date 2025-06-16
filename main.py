@@ -8,7 +8,7 @@ You are a helpful AI assistant.
 User: {question}
 AI:"""
 
-model = OllamaLLM(model="llama3.2:1b")
+model = OllamaLLM(model="MODEL_NAME") //add your model
 prompt = ChatPromptTemplate.from_template(template)
 
 chain = prompt | model
